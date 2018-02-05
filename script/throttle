@@ -102,6 +102,7 @@ die "throttle: Please specify --speed (-s)\n" unless $Opts{speed};
 main();
 
 # ABSTRACT: Bandwidth limiting pipe
+# PODNAME:
 
 =head1 SYNOPSIS
 
