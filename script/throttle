@@ -109,7 +109,7 @@ main();
 =head1 DESCRIPTION
 
 This utility copies standard input to standard output while limiting bandwidth
-to the specified minimum. Bandwidth limiting is done by calling C<nanosleep()>
+to the specified maximum. Bandwidth limiting is done by calling C<nanosleep()>
 in between copying.
 
 Keywords: throttle, throughput, bandwidth, speed limit, stdin, stdout, standard
