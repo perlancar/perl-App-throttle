@@ -167,9 +167,10 @@ Bool. If set will output more debug messages to stderr.
 =head1 SEE ALSO
 
 B<throttle>, L<http://www.pro-toolz.net/data/man/1/throttle.html>, bandwidth
-limiting pipe. The closest in purpose/form with our own L<throttle>. At the time
-of this writing, no Debian/Ubuntu package is available. Differences: our own
-B<throttle> allows specifying bandwidth limit in a more human-friendly way.
+limiting pipe. The closest in purpose/form with our Perl-based L<throttle>. At
+the time of this writing, no Debian/Ubuntu package is available. Differences:
+our Perl-based B<throttle> allows specifying bandwidth limit in a more
+human-friendly way (C<-s 1Mbps> instead of C<-m 1>).
 
 B<cpipe>, L<http://cpipe.berlios.de>, a CLI to copy stdin to stdout while
 counting bytes and reporting progress to stderr. Can also be instructed to limit
