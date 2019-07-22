@@ -1,3 +1,10 @@
+0.003   2019-07-22  Released-By: PERLANCAR; urgency: low
+
+        - No functional changes.
+
+        - [build] Rebuild to fix source repository URL.
+
+
 0.002   2018-02-05  Released-By: PERLANCAR
 
         - No functional changes.
